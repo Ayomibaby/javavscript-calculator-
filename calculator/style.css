@@ -1,0 +1,46 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.screen{
+    width: 1000px;
+    padding: 50px;
+    background-color: rgb(41,41,56);
+    color: white;
+    font-size: 100px;
+}
+button{
+    width: 270px;
+    padding: 13px;
+    border: 2px solid black;
+    transition: all 2s ease;
+}
+button:hover{
+    background: blue;
+   }
+
+   .yellow{
+       background-color: rgb(245,146,62);
+       color: white;
+       font-size: 40px;
+   }
+   .white{
+       font-size: 40px;
+       background: rgb(224,224,224);
+   }
+
+   .green{
+       background: green;
+       font-size: 40px;
+
+   }
+
+   .redbtn{
+       background: red;
+       font-size: 40px;
+   }
+   table{
+       border-collapse: collapse;
+   }
